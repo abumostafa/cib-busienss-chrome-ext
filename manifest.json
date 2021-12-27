@@ -1,0 +1,14 @@
+{
+  "name": "CIB Business",
+  "description": "Beatify CIB Business Portal",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://businessonline.cibeg.com/*"],
+      "js": ["public/js/cib.js"],
+      "css": ["public/css/cib.css"]
+    }
+  ]
+}
